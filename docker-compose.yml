@@ -10,6 +10,6 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'product'
-      MYSQL_ROOT_PASSWORD: 'Oluwatomisin1$'
-    ports:
+      MYSQL_ROOT_PASSWORD: '*********'
+    ports:mysql-python-flaskapp/ 
       - '8081:3306'
